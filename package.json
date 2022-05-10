@@ -1,0 +1,38 @@
+{
+  "name": "tongue-but-hole",
+  "version": "0.0.1",
+  "description": "a website for sharing elden ring messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w & ws -d ./dist",
+    "build": "webpack",
+    "start": "ws -d ./dist",
+    "build:prod": "NODE_ENV=\"production\" npm run build",
+    "clean": "rm -rf ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chad-syntax/tongue-but-hole.git"
+  },
+  "author": "Chad $yntax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chad-syntax/tongue-but-hole/issues"
+  },
+  "homepage": "https://github.com/chad-syntax/tongue-but-hole#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "copy-webpack-plugin": "^10.2.4",
+    "critical-css-webpack-plugin": "^3.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "local-web-server": "^5.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack-cli": "^4.9.2"
+  }
+}

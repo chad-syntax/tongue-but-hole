@@ -1,0 +1,20 @@
+export const LABEL = "Battle Tactics";
+export const OPTIONS = [
+  "close-quarters battle",
+  "ranged battle",
+  "horseback battle",
+  "luring out",
+  "defeating one-by-one",
+  "taking on all at once",
+  "rushing in",
+  "stealth",
+  "mimicry",
+  "confusion",
+  "pursuit",
+  "fleeing",
+  "summoning",
+  "circling around",
+  "jumping off",
+  "dashing through",
+  "brief respite",
+];

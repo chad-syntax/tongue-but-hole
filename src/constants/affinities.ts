@@ -1,0 +1,20 @@
+export const LABEL = "Affinities";
+export const OPTIONS = [
+  "physical",
+  "standard",
+  "striking",
+  "slashing",
+  "piercing",
+  "fire",
+  "lightning",
+  "magic",
+  "holy",
+  "poison",
+  "toxic",
+  "scarlet rot",
+  "blood loss",
+  "frost",
+  "sleep",
+  "madness",
+  "death",
+];
