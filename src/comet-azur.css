@@ -361,14 +361,6 @@ button {
   animation: gigajar 30s linear infinite;
 }
 
-#giga-jarnished {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transition: transform 0.3s ease;
-  transform: translateX(-50%) translateY(100%);
-}
-
 #giga-jarnished.its-boss-time {
   transform: translateX(-50%) translateY(0%);
 }
