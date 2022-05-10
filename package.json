@@ -10,6 +10,7 @@
     "start": "ws -d ./dist",
     "build:prod": "NODE_ENV=\"production\" npm run build",
     "deploy": "npm run build:prod && git subtree push --prefix dist origin gh-pages",
+    "forced-deploy": "git push origin $1:gh-pages --force",
     "clean": "rm -rf ./dist"
   },
   "repository": {
