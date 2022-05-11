@@ -9,7 +9,7 @@
     "build": "webpack",
     "start": "ws -d ./dist",
     "build:prod": "NODE_ENV=\"production\" npm run build",
-    "deploy": "npm run build:prod && git subtree push --prefix dist origin gh-pages",
+    "deploy": "echo \"make sure to build and push to main before running this\" && git subtree push --prefix dist origin gh-pages",
     "forced-deploy": "git push origin $1:gh-pages --force",
     "clean": "rm -rf ./dist"
   },
