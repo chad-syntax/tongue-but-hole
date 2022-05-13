@@ -36,5 +36,4 @@ const stealth = (str: string) => {
   return h;
 };
 
-export const ungabunga = (str: string) =>
-  decodeURIComponent(stealth(str.replace(/\|/g, "")));
+export const ungabunga = (str: string) => decodeURIComponent(stealth(str));
